@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sudoko By Brandon :D</title>
+    <link rel="stylesheet" href="sudokuCSS.css" />
+    <script src="sudoku.js"></script>
+  </head>
+
+  <body>
+    <h1>Sudoku Solver with Boards :3</h1>
+    <table id="board">
+      <tr>
+        <td><input type="text" id="1" maxlength="1" size="1" /></td>
+        <td><input type="text" id="2" maxlength="1" size="1" /></td>
+        <td><input type="text" id="3" maxlength="1" size="1" /></td>
+        <td><input type="text" id="4" maxlength="1" size="1" /></td>
+        <td><input type="text" id="5" maxlength="1" size="1" /></td>
+        <td><input type="text" id="6" maxlength="1" size="1" /></td>
+        <td><input type="text" id="7" maxlength="1" size="1" /></td>
+        <td><input type="text" id="8" maxlength="1" size="1" /></td>
+        <td><input type="text" id="9" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="10" maxlength="1" size="1" /></td>
+        <td><input type="text" id="11" maxlength="1" size="1" /></td>
+        <td><input type="text" id="12" maxlength="1" size="1" /></td>
+        <td><input type="text" id="13" maxlength="1" size="1" /></td>
+        <td><input type="text" id="14" maxlength="1" size="1" /></td>
+        <td><input type="text" id="15" maxlength="1" size="1" /></td>
+        <td><input type="text" id="16" maxlength="1" size="1" /></td>
+        <td><input type="text" id="17" maxlength="1" size="1" /></td>
+        <td><input type="text" id="18" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="19" maxlength="1" size="1" /></td>
+        <td><input type="text" id="20" maxlength="1" size="1" /></td>
+        <td><input type="text" id="21" maxlength="1" size="1" /></td>
+        <td><input type="text" id="22" maxlength="1" size="1" /></td>
+        <td><input type="text" id="23" maxlength="1" size="1" /></td>
+        <td><input type="text" id="24" maxlength="1" size="1" /></td>
+        <td><input type="text" id="25" maxlength="1" size="1" /></td>
+        <td><input type="text" id="26" maxlength="1" size="1" /></td>
+        <td><input type="text" id="27" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="28" maxlength="1" size="1" /></td>
+        <td><input type="text" id="29" maxlength="1" size="1" /></td>
+        <td><input type="text" id="30" maxlength="1" size="1" /></td>
+        <td><input type="text" id="31" maxlength="1" size="1" /></td>
+        <td><input type="text" id="32" maxlength="1" size="1" /></td>
+        <td><input type="text" id="33" maxlength="1" size="1" /></td>
+        <td><input type="text" id="34" maxlength="1" size="1" /></td>
+        <td><input type="text" id="35" maxlength="1" size="1" /></td>
+        <td><input type="text" id="36" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="37" maxlength="1" size="1" /></td>
+        <td><input type="text" id="38" maxlength="1" size="1" /></td>
+        <td><input type="text" id="39" maxlength="1" size="1" /></td>
+        <td><input type="text" id="40" maxlength="1" size="1" /></td>
+        <td><input type="text" id="41" maxlength="1" size="1" /></td>
+        <td><input type="text" id="42" maxlength="1" size="1" /></td>
+        <td><input type="text" id="43" maxlength="1" size="1" /></td>
+        <td><input type="text" id="44" maxlength="1" size="1" /></td>
+        <td><input type="text" id="45" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="46" maxlength="1" size="1" /></td>
+        <td><input type="text" id="47" maxlength="1" size="1" /></td>
+        <td><input type="text" id="48" maxlength="1" size="1" /></td>
+        <td><input type="text" id="49" maxlength="1" size="1" /></td>
+        <td><input type="text" id="50" maxlength="1" size="1" /></td>
+        <td><input type="text" id="51" maxlength="1" size="1" /></td>
+        <td><input type="text" id="52" maxlength="1" size="1" /></td>
+        <td><input type="text" id="53" maxlength="1" size="1" /></td>
+        <td><input type="text" id="54" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="55" maxlength="1" size="1" /></td>
+        <td><input type="text" id="56" maxlength="1" size="1" /></td>
+        <td><input type="text" id="57" maxlength="1" size="1" /></td>
+        <td><input type="text" id="58" maxlength="1" size="1" /></td>
+        <td><input type="text" id="59" maxlength="1" size="1" /></td>
+        <td><input type="text" id="60" maxlength="1" size="1" /></td>
+        <td><input type="text" id="61" maxlength="1" size="1" /></td>
+        <td><input type="text" id="62" maxlength="1" size="1" /></td>
+        <td><input type="text" id="63" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="64" maxlength="1" size="1" /></td>
+        <td><input type="text" id="65" maxlength="1" size="1" /></td>
+        <td><input type="text" id="66" maxlength="1" size="1" /></td>
+        <td><input type="text" id="67" maxlength="1" size="1" /></td>
+        <td><input type="text" id="68" maxlength="1" size="1" /></td>
+        <td><input type="text" id="69" maxlength="1" size="1" /></td>
+        <td><input type="text" id="70" maxlength="1" size="1" /></td>
+        <td><input type="text" id="71" maxlength="1" size="1" /></td>
+        <td><input type="text" id="72" maxlength="1" size="1" /></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="73" maxlength="1" size="1" /></td>
+        <td><input type="text" id="74" maxlength="1" size="1" /></td>
+        <td><input type="text" id="75" maxlength="1" size="1" /></td>
+        <td><input type="text" id="76" maxlength="1" size="1" /></td>
+        <td><input type="text" id="77" maxlength="1" size="1" /></td>
+        <td><input type="text" id="78" maxlength="1" size="1" /></td>
+        <td><input type="text" id="79" maxlength="1" size="1" /></td>
+        <td><input type="text" id="80" maxlength="1" size="1" /></td>
+        <td><input type="text" id="81" maxlength="1" size="1" /></td>
+      </tr>
+    </table>
+    <br />
+
+    <button type="button" onclick="initiate()">Solve</button>
+    <button type="button" onclick="generateBoard()">Random New Board</button>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+/* Table styles */
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 0;
+}
+
+tr:nth-child(3n + 1) td {
+  border-top: 2px solid black;
+}
+
+tr:nth-child(3n + 3) td {
+  border-bottom: 2px solid black;
+}
+
+td:nth-child(3n + 1) {
+  border-left: 2px solid black;
+}
+
+td:nth-child(3n + 3) {
+  border-right: 2px solid black;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header style */
+h1 {
+  text-align: center;
+}
+
+/* Solve button style */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Background image */
+body {
+background-image: url('wallpaper.jpg');
+background-repeat: no-repeat;
+}
